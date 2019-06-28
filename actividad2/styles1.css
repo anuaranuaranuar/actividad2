@@ -46,6 +46,7 @@ section{
     border: 1px solid rgb(0, 0, 0);
     grid-area: contenido;
     padding: 1em;
+    
 }
 .cont a{
     text-decoration: none;
@@ -59,4 +60,10 @@ footer{
     border: 1px solid rgb(0, 0, 0);
 }
 nav ul li{display: inline;
-margin: 0em 8em}
+margin: 0em 8em;
+}
+
+p{font-size:20px;
+    text-align: left;
+    
+}
