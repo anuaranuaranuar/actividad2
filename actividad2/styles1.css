@@ -1,0 +1,62 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-gap: 1.5em;
+    grid-template-areas: 
+    "header"
+    "section"
+    "footer";
+    text-align: justify;
+}
+
+header{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    line-height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+section{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas: 
+    "introdu introdu introdu imagen"
+    "contenido contenido contenido contenido";
+}
+.introdu{
+    text-align: center;
+    grid-area:introdu;
+    border: 1px solid rgb(0, 0, 0);
+}
+.left{
+    border: 1px solid rgb(0, 0, 0);
+    grid-area: imagen;
+    margin: auto;
+}
+.left div{
+    font-weight:initial;
+    border: 1px solid rgba(0, 0, 0, 0.534);
+    text-align: center;
+    padding-bottom: .5em;
+    margin: .5em;
+}
+.cont{
+    border: 1px solid rgb(0, 0, 0);
+    grid-area: contenido;
+    padding: 1em;
+}
+.cont a{
+    text-decoration: none;
+    color: rgb(21, 8, 209);
+}
+footer{
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+nav ul li{display: inline;
+margin: 0em 8em}
